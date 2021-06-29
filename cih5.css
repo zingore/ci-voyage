@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+
+.back {
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    border-color: rgb(255, 255, 255);
+}
+
+.backim {
+    position: absolute;
+    width: 100%;
+    height: 55vh;
+
+
+    margin-top: -0.2%;
+    margin-left: 0.01%;
+}
+
+.lanear {
+    position: absolute;
+    width: 100%;
+    height: 55vh;
+    background: linear-gradient(90.16deg, rgba(87, 174, 200, 0.541) 5.81%, rgba(36, 116, 208, 0.534) 37.74%, rgba(35, 67, 184, 0.514) 60.4%, rgba(56, 23, 187, 0.507) 82.03%, rgba(125, 15, 209, 0.479) 103.66%);
+    margin-top: -0.2%;
+    margin-left: 0.01%;
+}
+
+.menu{
+    position: absolute;
+    transition: 1000ms;
+    width: 100%;
+    height: 2%;
+    
+    margin-bottom: 20%;
+    transition: 1000ms;
+}
+.menu:hover{
+    position: absolute;
+    
+    width: 100%;
+    height: 25%;
+    background-color: black;
+    margin-bottom: 20%;
+   
+}
+.d{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    font-family: 'Dosis', sans-serif;
+    grid-gap: 35%;
+    margin-top: 2.1%;
+    text-align: center;
+    list-style: none;
+    margin-left:60%;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    
+}
+
+ul li a::after{
+    position: absolute;
+   content: " ";
+   
+   width: 0;
+   height: 2px;
+   border-radius: 5px;
+    display: block;
+   background-color: rgb(255, 255, 255);
+   top: 75%;
+   margin: 1.5%;
+   transition: all 500ms ease-in-out;
+  
+}
+
+.d li a:hover{
+    color: darksalmon;
+   
+}
+.d li a:hover::after{
+    width: 25%;
+    height: 3%;
+       
+}
+
+
+.s1 {
+    position: absolute;
+    font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3em;
+    margin-left: 1%;
+    top: 2%;
+    color: rgb(255, 255, 255);
+    z-index: 20;
+}
+
+.s2 {
+    position: absolute;
+    margin-top: 10%;
+    font-size: 2.2em;
+    margin-left: 45%;
+    color: blanchedalmond;
+    margin-left: 20%;
+}
+
+.cont {
+    position: absolute;
+    margin-top: 37%;
+    width: 12%;
+    height: 28%;
+    border: 5px solid black;
+    margin-left: 8%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 8px 5px #888888;
+}
+
+.fab {
+    position: absolute;
+    font-size: 6em;
+    margin-top: 9%;
+    margin-left: 27%;
+    
+}
+
+.s3 {
+    position: absolute;
+    margin-top: 70%;
+    color: white;
+    font-size: 0.8em;
+    margin-left: 12%;
+}
+
+.s4 {
+    position: absolute;
+    margin-top: 82%;
+    color: white;
+    font-size: 0.8em;
+    margin-left: 12%;
+}
+
+.cont1 {
+    position: absolute;
+    margin-top: 37%;
+    width: 12%;
+    height: 28%;
+    border: 5px solid black;
+    margin-left: 30%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 8px 5px #888888;
+}
+
+.s7 {
+    position: absolute;
+    width: 105%;
+    color: white;
+    height: 3.8vh;
+    border-radius: 5px;
+    font-size: 0.8em;
+    background: rgb(0, 68, 255);
+    margin-left: -4.5%;
+    border-style: none;
+    top: 2vh;
+    transition: 1000ms;
+    box-shadow: inset 0 0 0 0 tomato;
+}
+.s7:hover{
+    box-shadow: inset 200px 0 0 0 tomato;
+    color: white;
+
+}
+.s10 {
+    position: absolute;
+    width: 110%;
+    color: white;
+    height: 3.8vh;
+    border-radius: 5px;
+    font-size: 0.8em;
+    background: rgb(0, 255, 21);
+    margin-left: -4.5%;
+    border-style: none;
+    top: 21.5vh;
+    transition: 1000ms;
+    box-shadow: inset 0 0 0 0 tomato;
+}
+.s10:hover{
+    box-shadow: inset 200px 0 0 0 tomato;
+    color: white;
+
+}
+.s5 {
+    position: absolute;
+    margin-top: 80%;
+    color: white;
+    font-size: 0.8em;
+    margin-left: 6%;
+
+}
+
+.s6 {
+    position: absolute;
+    margin-top: 85%;
+    color: white;
+    font-size: 0.8em;    
+    width: 105%;
+}
+
+.cont3 {
+    position: absolute;
+    margin-top: 37%;
+    width: 12%;
+    height: 28%;
+    border: 5px solid black;
+    margin-left: 52%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 8px 5px #888888;
+}
+
+.s8 {
+    position: absolute;
+    width: 105%;
+    color: white;
+    height: 3.8vh;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-left: -4.5%;
+    top: 2vh;
+    border-style: none;
+    background: rgb(235, 195, 17);
+    transition: 1000ms;
+    box-shadow: inset 0 0 0 0 tomato;
+}
+.s8:hover{
+    box-shadow: inset 200px 0 0 0 tomato;
+    color: white;
+
+}
+.cont4 {
+    position: absolute;
+    margin-top:37%;
+    width: 12%;
+    height: 28%;
+    border: 5px solid black;
+    margin-left: 75%;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 5px 8px 5px #888888;
+}
+
+.s9 {
+    position: absolute;
+    width: 105%;
+    color: white;
+    height: 3.8vh;
+    border-radius: 5px;
+    font-size: 0.8em;
+    margin-left: -4.5%;
+    border-style: none;
+    top: 2vh;
+    background: rgb(17, 155, 235);
+    transition: 1000ms;
+    box-shadow: inset 0 0 0 0 tomato;
+}
+.s9:hover{
+    box-shadow: inset 200px 0 0 0 tomato;
+    color: white;
+
+}
+
+
+.sp2{
+   position:absolute;
+   font-size: 2.4em;
+   margin-top: 90%;
+   margin-left: 2%;
+   color: rgb(238, 23, 23);
+}
+
+.local{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-top: 94%;
+    background: rgba(0, 0, 0, 0.527);
+}
+.lo{
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+}
+.t{
+     position: absolute;
+    width: 100%;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.527);
+    margin-top: 0.1%;
+    
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background-color: rgb(24, 22, 20);
+    top: 17%;
+    border-top: 8px solid yellow;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    margin-top: 120%;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+li a:active{
+    color: #fff;
+}
+li a:visited{
+    color: #fff;
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+button a:active{
+    color: #fff;
+}
+button a:visited{
+    color: #fff;
+}
+
+.cont5{
+    position: absolute;
+    top: 114vh;
+    width: 50%;
+    height:50%;
+
+    
+}
+.txt{
+    position:absolute;
+    width: 70%;
+    height: 35%;
+    margin-left: 9%;
+    top: 20%;
+    border: rgb(87, 83, 83) 2px solid  ;
+    outline: none;
+    border-radius: 12px;
+    
+}
+.lb1{
+    position: absolute;
+    margin-left: 11%;
+    top: 30vh;
+}
+.txt1{
+    position:absolute;
+     width: 68%;
+    margin-left: 10%;
+    top: 33vh;
+    border: rgb(87, 83, 83) 2px solid  ;
+    outline: none;
+    border-radius: 12px;
+    
+}
+.lb2{
+    position: absolute;
+    margin-left: 11%;
+    top: 38vh;
+}
+.txt2{
+    position:absolute;
+     width: 68%;
+    margin-left: 10%;
+    top: 41vh;
+    border: rgb(87, 83, 83) 2px solid  ;
+    outline: none;
+    border-radius: 12px;
+    
+}
+.lb3{
+    position: absolute;
+    margin-left: 11%;
+    top: 46vh;
+}
+.txt3{
+    position:absolute;
+     width: 68%;
+    margin-left: 10%;
+    top: 49vh;
+    border: rgb(87, 83, 83) 2px solid  ;
+    outline: none;
+    border-radius: 12px;
+    
+}
+.com{
+    position: absolute;
+    margin-left: 8%;
+    font-size: 2em;
+    font-family: sans-serif;
+    width: 150%;
+}
+.s20{
+    top:53vh;
+    font-size: 0.8em;
+    left: 80%;
+}
+.send{
+    position: absolute;
+    top:58vh;
+    width: 20%;
+    height: 10%;
+    border-style: none;
+    left: 31%;
+    border-radius: 12px;
+    color: wheat;
+    background-color: rgb(228, 138, 4);
+    transition: 1000ms;
+    box-shadow: inset 0 0 0 0 rgb(65, 64, 61);
+}
+.send:hover{
+    box-shadow: inset 200px 0 0 0 rgb(63, 62, 60);
+    color: white;
+
+}

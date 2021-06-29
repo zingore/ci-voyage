@@ -1,0 +1,291 @@
+nav
+{
+    position: absolute;
+    left: 0;
+    top: -1%;
+    z-index: 10;
+}
+nav ul {    
+    list-style: none;
+    width: 500px;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 24px 0px;
+    height: 70vh;
+    clip-path:circle(10% at 10% 5%);
+    transition: all 0.4s ease-in-out;
+}
+nav ul:hover
+{
+    clip-path:circle(100% at -45% 10%);
+}
+nav ul .menu
+{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    margin-bottom: 24px;
+    margin-left: 24px;    
+    cursor: pointer;
+    
+    transition: all 0.4s ease-in-out;
+}
+nav ul .menu span
+{
+    position: absolute;
+    left: 8px;
+    background-color: rgb(252, 252, 252);
+    padding: 2px;
+    width: 25px;
+    border-radius: 4px;    
+}
+nav .menu span:nth-child(1)
+{
+    top: 0;
+    transition: all 0.4s ease-in-out;
+}
+nav .menu span:nth-child(2)
+{
+    top: 10px;
+    width: 28px;
+    transition: all 0.4s ease-in-out;
+}
+nav .menu span:nth-child(3)
+{
+    bottom: 18px;
+    width: 40px;    
+    transition: all 0.4s ease-in-out;
+}
+nav ul:hover .menu span:nth-child(1)
+{
+    top: 0;
+    left: 23px;
+    width: 4px;
+    height: 40px;
+}
+nav ul:hover .menu span:nth-child(1)
+{
+    top: 0;
+    left: 23px;
+    width: 4px;
+    height: 35px;
+}
+nav ul:hover .menu span:nth-child(2)
+{
+    width: 30px;
+    left: 8px;
+}
+nav ul:hover .menu span:nth-child(3)
+{
+    padding: 0;
+    width: 0px;
+}
+nav ul:hover .menu
+{
+    transform: rotateZ(45deg); 
+}
+nav ul li
+{
+    padding: 24px 35px;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out;
+}
+
+nav ul li a
+{
+ color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li:hover
+{
+     background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding-left: 56px;
+}
+.back{
+        position: absolute;
+         width: 99%;
+         height: 98vh;   
+         border-radius: 3px;
+         border-style: solid;
+         border-width: 20%;
+         border-color: rgb(255, 255, 255);
+}
+.backim{
+    position: absolute;
+    left: 28%;
+    top: 10%;
+}
+form{
+    position: absolute;
+    top: 50%;
+    
+    width: 60%;
+}
+label{
+    width: 120px;
+}
+.lb1{
+     position: absolute;
+     top: -18vh;
+    left: 60vh;
+    
+    
+}
+.txt1{
+    position: absolute;
+     top: -14vh;
+    left: 60vh;
+    width: 66%;
+    height: 4.5vh; 
+    border: rgb(87, 83, 83) 2px solid  ;
+    border-radius: 4px;
+    outline: none;
+}
+.lb2{
+    position: absolute;
+    top: -7vh;
+   left: 60vh;  
+}
+.txt2{
+    position: absolute;
+     top: -4vh;
+    left: 60vh;
+    width: 25%;
+    height: 4.5vh; 
+    border: rgb(87, 83, 83) 2px solid  ;
+    border-radius: 4px;
+    outline: none;
+}
+.lb3{
+    position: absolute;
+    top: -7vh;
+    left:110vh;  
+}
+.txt3{
+    position: absolute;
+     top: -4vh;
+    left: 110vh;
+    width: 25%;
+    height: 4.5vh; 
+    border: rgb(87, 83, 83) 2px solid  ;
+    border-radius: 4px;
+    outline: none;
+}
+.lb4{
+    position: absolute;
+    top: 3vh;
+    left: 60vh;  
+}
+.txt4{
+    position: absolute;
+    top: 6vh;
+    left: 60vh;
+    width: 25%;
+    height: 4.5vh; 
+    border: rgb(87, 83, 83) 2px solid  ;
+    border-radius: 4px;
+    outline: none;
+}
+.lb5{
+    position: absolute;
+    top: 3vh;
+    left:110vh
+
+}
+.txt5{
+    position: absolute;
+    top: 6vh;
+    left:110vh;  
+    width: 25%;
+    height: 4.5vh; 
+    border: rgb(87, 83, 83) 2px solid  ;
+    border-radius: 4px;
+    outline: none;
+}
+.lb6{
+    position: absolute;
+    top: 13.5vh;
+    left: 60vh;
+
+}
+.txt6{
+    position: absolute;
+    top: 17vh;
+    left: 60vh;  
+    width: 25%;
+    height: 4.5vh; 
+    border: rgb(87, 83, 83) 2px solid  ;
+    border-radius: 4px;
+    outline: none;
+}
+
+.lb6{
+    position: absolute;
+    top: 13.5vh;
+    left: 60vh;
+
+}
+.txt6{
+    position: absolute;
+    top: 17vh;
+    left: 60vh;  
+    width: 25%;
+    height: 4.5vh; 
+    border: rgb(87, 83, 83) 2px solid  ;
+    border-radius: 4px;
+    outline: none;
+}
+.lb7{
+    position: absolute;
+    top: 13.5vh;
+    left: 110vh;
+
+}
+.txt7{
+    position: absolute;
+    top: 17vh;
+    left: 110vh;  
+    width: 25%;
+    height: 4.5vh; 
+    border: rgb(87, 83, 83) 2px solid  ;
+    border-radius: 4px;
+    outline: none;
+}
+.lb8{
+    position: absolute;
+    top: 24vh;
+    left: 60vh;
+    width: 150px;
+    
+}
+.txt8{
+    position: absolute;
+    top: 27vh;
+    left: 60vh;  
+    width: 25%;
+    height: 4.5vh; 
+    border: rgb(87, 83, 83) 2px solid  ;
+    border-radius: 4px;
+    outline: none;
+}
+.btn{
+    position: absolute;
+    top: 38vh;
+    left: 80%;
+    width: 10%;
+    height: 4.8vh;
+    border-radius: 5px;
+    background-color: rgb(106, 106, 243);
+    color: cornsilk;
+    border: none;
+}
+
+
+
+
